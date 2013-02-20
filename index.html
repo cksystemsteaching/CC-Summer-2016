@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Introduction to Compiler Construction 2013</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course Homepage">
+    <meta name="author" content="Christoph Kirsch">
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Le styles -->
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+    <link href="assets/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    <link rel="shortcut icon" href="http://www.gravatar.com/avatar/327a7ee75cbb70f686e645e7536c3bf6?s=16">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="#">Introduction to Compiler Construction 2013</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="http://www.cs.uni-salzburg.at/~ck">Christoph Kirsch</a></li>
+              <li><a href="../introduction-to-compiler-construction/">Lecture Notes and Code Examples</a></li>
+              <li><a href="http://itunes.apple.com/itunes-u/introduction-to-compiler-construction/id507386525">iTunes Store</a></li>
+              <li><a href="https://itunesu.itunes.apple.com/audit/COX688WRRB">iTunes U</a></li>
+              <li><a href="http://vimeopro.com/user12798068/university-of-salzburg-introduction-to-compiler-construction">Vimeo HD</a></li>
+              <li><a href="http://github.com/cksystemsteaching/CC-Summer-2013">GitHub</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1><a href="http://www.uni-salzburg.at"><img src="http://www.gravatar.com/avatar/327a7ee75cbb70f686e645e7536c3bf6?s=140" class="img-circle"></a>  Compiler Construction!</h1>
+        <br>
+        <p>Learn hands-on how to construct a self-compiling compiler in a non-trivial subset of C along with a DLX-based emulator as target and a linker for separate compilation, using nothing but a C compiler for bootstrapping. The course closely follows the textbook <a href="http://www.ethoberon.ethz.ch/WirthPubl/CBEAll.pdf">Compiler Construction</a> by <a href="http://en.wikipedia.org/wiki/Niklaus_Wirth">Niklaus Wirth</a> but presents code examples written in a subset of C rather than Oberon.</p>
+      </div>
+
+      <div class="row">
+        <div class="span6">
+          <h2>Content</h2>
+          <p>The course provides an undergraduate-level introduction to compiler construction, covering fundamental topics of compiler construction: scanning, parsing, type checking, error handling, register allocation, code generation, bootstrapping, separate compilation, and basic code optimization; considering fundamental programming language constructs and concepts: assignment, arithmetic and boolean expressions, arrays, records, pointers, conditionals, loops, modules, and procedures with parameters, return values, and local variables.  At the end of the course you will be able to appreciate principled engineering of compilers but also know how to actually construct one from scratch and, as a consequence, through insights in programming language semantics that only a compiler can offer, become a fundamentally better programmer and computer scientist.</p>
+        </div>
+
+        <div class="span6">
+          <h2>Assignments</h2>
+          <p>Teams of 2-3 students will be asked to design their own source language (with formal grammar), and implement their own compiler, linker, and target machine in programming languages of their choice, hosted on <a href="http://github.com/cksystemsteaching">GitHub</a>. Each compiler must be able to compile itself in a live demo at the end of the semester.  Therefore, source languages are constrained to subsets of programming languages for which executable compilers are available (unless students choose to apply manual bootstrapping techniques).  Moreover, source languages must be typed (basic types, arrays, and records) and feature at least a concept for parameterized local hiding such as procedures with arguments and a concept for global hiding such as modules supporting separate compilation.  There will also be a final exam at the end of the semester.</p>
+        </div>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <h2>Project A</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Project B</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+        <div class="span4">
+          <h2>Project C</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Christoph Kirsch 2013. Website built with <a href="http://twitter.github.com/bootstrap">Bootstrap</a> and <a href="http://jquery.com">jQuery</a>.</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-3827654-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+    </script>
+  </body>
+</html>
