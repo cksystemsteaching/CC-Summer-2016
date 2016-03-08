@@ -36,4 +36,4 @@ Assignment 1: Bitwise Shift Instructions
 
 __Deadline__: March 17, 10am (hard, no extensions)
 
-Implement in mipster the four logical bitwise shift instructions of MIPS called sll, srl, sllv, and srlv according to the <a href="https://en.wikipedia.org/wiki/MIPS_instruction_set">MIPS</a> standard. In your implementation use the selfie library functions for bitwise shifting and the selfie interface functions for decoding. Also, make sure that the selfie disassembler and debugger produce proper output for these instructions.
+Implement in mipster the four logical bitwise shift instructions of MIPS called `sll`, `srl`, `sllv`, and `srlv` according to the <a href="https://en.wikipedia.org/wiki/MIPS_instruction_set">MIPS</a> standard. In your implementation use the selfie library functions for bitwise shifting and the selfie interface functions for decoding. Also, make sure that the selfie disassembler and debugger produce proper output for these instructions.
