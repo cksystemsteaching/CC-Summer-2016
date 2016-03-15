@@ -19,7 +19,7 @@ General Requirements
 
 All homework solutions:
 
-* must be implemented in C* in the selfie.c file,
+* must be implemented in C\* in the selfie.c file,
 * must compile without warnings with starc and execute with mipster,
 * must not break any existing selfie functionality, and
 * must be ready for presentation on your machine in class.
@@ -37,3 +37,10 @@ Assignment 1: Bitwise Shift Instructions
 __Deadline__: March 17, 10am (hard, no extensions)
 
 Implement in mipster the four logical bitwise shift instructions of MIPS called `sll`, `srl`, `sllv`, and `srlv` according to the <a href="https://en.wikipedia.org/wiki/MIPS_instruction_set">MIPS</a> standard. In your implementation use the selfie library functions for bitwise shifting and the selfie interface functions for decoding. Also, make sure that the selfie disassembler and debugger produce proper output for these instructions.
+
+Assignment 2: Bitwise Shift Operators (Scanning, Parsing)
+---------------------------------------------------------
+
+__Deadline__: April 7, 10am (hard, no extensions)
+
+Implement in starc scanning and parsing of the two shift operators of C written `<<` and `>>`. Extend the scanner and parser of starc accordingly. In particular, invent unique tokens for the new symbols and make sure that the scanner properly distinguishes `<` from `<<` and `>` from `>>`. Then, add a new production rule for the new symbols to the C\* grammar (in the grammar.md file) such that their precedence is between `+` and `<` as specified for <a href="https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B">C operators</a>. Finally, add a procedure for parsing the new symbols to starc according to the new production rule (hint: use a copy of the procedure for parsing simple expressions as template). Test your implementation on syntactically correct as well as syntactically incorrect C\* programs using the two shift operators.
