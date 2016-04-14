@@ -51,3 +51,10 @@ Assignment 3: Bitwise Shift Operators (Code Generation, Self-Compilation)
 __Deadline__: April 14, 10am (hard, no extensions)
 
 Implement in starc code generation for the shift operators `<<` and `>>` of Assignment 2 using the logical bitwise shift instructions of Assignment 1. The semantics of both operators should be logical bitwise shift meaning that zeros are shifted in on either end (even for `>>` of negative numbers). Change the implementation of the leftShift and rightShift procedures using `<<` and `>>` instead of `*` and `/` such that the original semantics of both procedures is preserved. Avoid calling the twoToThePowerOf procedure in your solution. Finally, demonstrate that self-compilation of selfie still works and check which procedures are now the most called procedures during self-compilation.
+
+Assignment 4: Constant Folding
+------------------------------
+
+__Deadline__: April 21, 10am (hard, no extensions)
+
+Implement constant folding in arithmetic expressions. For this purpose introduce a grammar attribute that represents the value of an expression if available. Use the attribute to evaluate constant expressions at compile time and delay code generation for arithmetic expressions accordingly. Represent the attribute by a call-by-reference parameter to the involved parsing procedures. The parameter needs to carry the value and a flag that indicates if a value is available. Use exactly one instance of the parameter for parsing an arithmetic expression. Test your code and check the generated assembly for correctness. Also, make sure that self-compilation of selfie still works.
