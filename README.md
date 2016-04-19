@@ -58,3 +58,17 @@ Assignment 4: Constant Folding
 __Deadline__: April 21, 10am (hard, no extensions)
 
 Implement constant folding in arithmetic expressions. For this purpose introduce a grammar attribute that represents the value of an expression if available. Use the attribute to evaluate constant expressions at compile time and delay code generation for arithmetic expressions accordingly. Represent the attribute by a call-by-reference parameter to the involved parsing procedures. The parameter needs to carry the value and a flag that indicates if a value is available. Use exactly one instance of the parameter for parsing an arithmetic expression. Test your code and check the generated assembly for correctness. Also, make sure that self-compilation of selfie still works.
+
+Assignment 5: Arrays
+--------------------
+
+__Deadline__: April 28, 10am (hard, no extensions)
+
+Implement one-dimensional arrays with support of constant folding in size and index expressions. As usual, extend the C\* grammar first and then implement parsing and code generation. Focus on array access first. After that implement global and local declarations of one-dimensional array variables. Finally, implement  one-dimensional array parameters. To test your code modify selfie such that the `binary` variable is declared and accessed as array.
+
+Assignment 6: Two-Dimensional Arrays
+------------------------------------
+
+__Deadline__: May 4, 10am (hard, no extensions)
+
+Extend your implementation of one-dimensional arrays to two-dimensional arrays. To test your code modify selfie such that the `binary` and `sourceLineNumber` variables are represented by a single two-dimensional array.
