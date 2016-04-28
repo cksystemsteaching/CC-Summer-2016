@@ -62,13 +62,13 @@ Implement constant folding in arithmetic expressions. For this purpose introduce
 Assignment 5: Arrays
 --------------------
 
-__Deadline__: May 4, 10am (hard, no extensions)
+__Deadline__: May 6, 10am (hard, no extensions)
 
-Implement one-dimensional arrays with support of constant folding in size and index expressions. As usual, extend the C\* grammar first and then implement parsing and code generation. Focus on array access first. After that implement global and local declarations of one-dimensional array variables. Finally, implement  one-dimensional array parameters. To test your code modify selfie such that the `binary` variable is declared and accessed as array.
+Implement one-dimensional arrays with support of constant folding in size and index expressions. As usual, extend the C\* grammar first and then implement parsing and code generation. Focus on array access first. After that implement global and local declarations of one-dimensional array variables. Finally, implement  one-dimensional array parameters. To test your code modify selfie such that the `SYMBOLS` variable is declared and accessed as array of integers `int SYMBOLS[28]`.
 
 Assignment 6: Two-Dimensional Arrays
 ------------------------------------
 
 __Deadline__: May 12, 10am (hard, no extensions)
 
-Extend your implementation of one-dimensional arrays to two-dimensional arrays. To test your code modify selfie such that the `binary` and `sourceLineNumber` variables are represented by a single two-dimensional array.
+Extend your implementation of one-dimensional arrays to two-dimensional arrays. To test your code modify selfie such that the `SYMBOLS` variable is declared and accessed as two-dimensional array of integers `int SYMBOLS[28][2]`. For each `symbol` store the symbol's string in `SYMBOLS[symbol][0]` and count the number of its occurrences in the parsed input in `SYMBOLS[symbol][1]`. After compilation output `SYMBOL[symbol][1]` on the console for each `symbol`.
