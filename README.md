@@ -64,7 +64,7 @@ Assignment 5: Arrays
 
 __Deadline__: May 6, 10am (hard, no extensions)
 
-Implement one-dimensional arrays with support of constant folding in size and index expressions. As usual, extend the C\* grammar first and then implement parsing and code generation. Focus on array access first. After that implement global and local declarations of one-dimensional array variables. Finally, implement  one-dimensional array parameters. To test your code modify selfie such that the `SYMBOLS` variable is declared and accessed as array of integers `int SYMBOLS[28]`.
+Implement one-dimensional arrays with support of constant folding in size and index expressions. As usual, extend the C\* grammar first and then implement parsing and code generation. Focus on global array variables first. Then implement local array variables and finally array parameters. To test your code modify selfie such that the `SYMBOLS` variable is declared and accessed as array of integers `int SYMBOLS[28]`.
 
 Assignment 6: Two-Dimensional Arrays
 ------------------------------------
@@ -72,3 +72,17 @@ Assignment 6: Two-Dimensional Arrays
 __Deadline__: May 12, 10am (hard, no extensions)
 
 Extend your implementation of one-dimensional arrays to two-dimensional arrays. To test your code modify selfie such that the `SYMBOLS` variable is declared and accessed as two-dimensional array of integers `int SYMBOLS[28][2]`. For each `symbol` store the symbol's string in `SYMBOLS[symbol][0]` and count the number of its occurrences in the parsed input in `SYMBOLS[symbol][1]`. After compilation output `SYMBOL[symbol][1]` on the console for each `symbol`.
+
+Assignment 7: Struct Declarations
+---------------------------------
+
+__Deadline__: May 19, 10am (hard, no extensions)
+
+Implement global and local pointer-to-struct declarations as well as pointer-to-struct parameters but leave struct access to the next assignment. As with arrays implement global declarations first, then local declarations, and finally parameters. To test your code declare a `struct` for symbol table entries in selfie but do not actually use the `struct`.
+
+Assignment 8: Struct Access
+---------------------------
+
+__Deadline__: May 25, 10am (hard, no extensions)
+
+Implement `struct` access. To test your code complete the port of the symbol table in selfie to structs and demonstrate self-compilation.
