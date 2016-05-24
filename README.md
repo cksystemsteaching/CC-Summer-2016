@@ -83,6 +83,6 @@ Implement global and local pointer-to-struct declarations as well as pointer-to-
 Assignment 8: Struct Access
 ---------------------------
 
-__Deadline__: May 25, 10am (hard, no extensions)
+__Deadline__: May 27, 10am (hard, no extensions)
 
 Implement `struct` access. To test your code complete the port of the symbol table in selfie to structs and demonstrate self-compilation.
