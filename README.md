@@ -86,3 +86,17 @@ Assignment 8: Struct Access
 __Deadline__: May 27, 10am (hard, no extensions)
 
 Implement `struct` access. To test your code complete the port of the symbol table in selfie to structs and demonstrate self-compilation.
+
+Assignment 9: Boolean Operators (Individual)
+--------------------------------------------
+
+__Deadline__: June 9, 10am (hard, no extensions)
+
+Implement the Boolean operators `&&`, `||`, and `!` with lazy evaluation. Occurrences of `&&` and `||` in the same expression are not required to work. However, occurrences of `!` and `&&` as well as `!` and `||` in the same expression must work. To test your code replace the `isCharacterDigit` function by an adequate Boolean expression and demonstrate self-compilation.
+
+Assignment 10: Boolean Operators (Algebra)
+------------------------------------------
+
+__Deadline__: June 16, 10am (hard, no extensions)
+
+Complete your implementation of the Boolean operators `&&`, `||`, and `!` such that any occurrences of the operators in the same expression are supported. To test your code replace the `isCharacterLetter` function by an adequate Boolean expression and demonstrate self-compilation.
