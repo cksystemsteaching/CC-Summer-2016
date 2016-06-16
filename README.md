@@ -100,3 +100,17 @@ Assignment 10: Boolean Operators (Algebra)
 __Deadline__: June 16, 10am (hard, no extensions)
 
 Complete your implementation of the Boolean operators `&&`, `||`, and `!` such that any occurrences of the operators in the same expression are supported. To test your code replace the `isCharacterLetter` function by an adequate Boolean expression and demonstrate self-compilation.
+
+Assignment 11: Memory Management
+--------------------------------
+
+__Deadline__: June 23, 10am (hard, no extensions)
+
+Implement `void free(int* address)` in selfie such that memory allocated by `int* malloc(int size)` is reused if `size` is equal to some constant value large enough to fit symbol table entries. To test your code free all memory allocated for local symbol tables when it is not needed anymore.
+
+Assignment 12: Final Project
+----------------------------
+
+__Deadline__: June 30, 10am (hard, no extensions)
+
+Clean up all of your code and write a one-page PDF summarizing what you did and how, and what works and what does not. Point out anything you did beyond what we asked for. Include your team's and team member's names.
